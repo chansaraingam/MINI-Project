@@ -8,7 +8,7 @@ This mini project presents a spatial assessment of **Saraighat Gram Panchayat**,
 
 The analysis was carried out using **QGIS 3.40** and **Weighted Multi-Criteria Analysis (WMCA)** by considering accessibility, existing utilities, land use/land cover, and spatial constraints.
 
----
+
 
 ## Study Area
 
@@ -27,13 +27,13 @@ The Gram Panchayat consists of three villages:
 - **Latitude:** 26°13′ N – 26°17′ N
 - **Longitude:** 91°40′ E – 91°44′ E
 
----
+
 
 ## Objective
 
 To identify the most suitable location for proposing a **new hospital site within Saraighat Gram Panchayat, Assam**, using spatial analysis techniques in QGIS.
 
----
+
 
 ## Utilities Considered
 
@@ -45,7 +45,7 @@ The spatial assessment considered existing utility and infrastructure layers inc
 - **Banks:** 9
 - **Post Office:** 1
 
----
+
 
 ## Data Sources
 
@@ -62,7 +62,7 @@ The following Sentinel-2 imagery dates were used:
 - 22-10-2024
 - 24-02-2025
 
----
+
 
 ## Software and Methods
 
@@ -78,7 +78,7 @@ The following Sentinel-2 imagery dates were used:
 
 - **1:50,000**
 
----
+
 
 ## Methodology
 
@@ -95,7 +95,7 @@ The major steps involved in the spatial suitability analysis were:
 9. Clipping of the final suitability raster using the Gram Panchayat boundary.
 10. Overlaying suitable areas with utility layers for final site identification.
 
----
+
 
 ## Buffer Criteria
 
@@ -107,7 +107,7 @@ The major steps involved in the spatial suitability analysis were:
 | School | 500 m | Reduce conflicts with educational zones |
 | Existing Hospital | 2000 m | Identify areas underserved by existing hospitals |
 
----
+
 
 ## QGIS Processing
 
@@ -122,7 +122,7 @@ The following QGIS operations were used during the suitability analysis:
 
 The vector buffer layers were converted into raster datasets so that they could be incorporated into the cell-based weighted overlay analysis.
 
----
+
 
 ## Weighted Multi-Criteria Analysis
 
@@ -132,7 +132,7 @@ Each criterion was assigned a relative importance weight. The weighted raster la
 
 Higher suitability values indicate areas that are more suitable for the proposed hospital site.
 
----
+
 
 ## Results
 
@@ -147,7 +147,7 @@ The suitable areas:
 
 The final suitability map was clipped to the Saraighat Gram Panchayat boundary and overlaid with utility layers to identify potential hospital locations.
 
----
+
 
 ## Final Outcome
 
@@ -155,7 +155,7 @@ The study successfully demonstrated the application of **GIS-based spatial analy
 
 The identified suitable areas can be considered potential locations for establishing a new hospital within Saraighat Gram Panchayat, subject to detailed field verification and further feasibility assessment.
 
----
+
 
 ## Project Skills Demonstrated
 
@@ -171,7 +171,7 @@ The identified suitable areas can be considered potential locations for establis
 - Site Suitability Analysis
 - Geospatial Planning
 
----
+
 
 ## Authors
 
@@ -185,13 +185,12 @@ Indian Institute of Technology Guwahati
 M.Tech, School of Agro and Rural Technology  
 Indian Institute of Technology Guwahati
 
----
+
 
 ## Course
 
 **RT-508 – Geospatial Technology in Agro and Rural Sector**
 
----
 
 ## Institution
 
